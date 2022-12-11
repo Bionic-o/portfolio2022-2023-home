@@ -59,6 +59,10 @@ padding: 1vh;
     padding-right: 1vh;
 }
 
+/* =================================================================== */
+/* Find below the CSS of linked Components in the <main> of App.js
+--> Home, Projects, CV, Skills, About Me */
+
 #AboutMe {
     text-align: center;
     margin-top: 10vh;

@@ -1,6 +1,6 @@
 function CV () {
     return (
-        <div>
+        <div id="CV">
             This is my CV
         </div>
     )

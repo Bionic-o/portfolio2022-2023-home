@@ -1,6 +1,6 @@
 function Home () {
     return (
-        <div>
+        <div id="Home">
             this is Home
         </div>
     )

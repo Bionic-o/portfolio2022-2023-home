@@ -1,6 +1,6 @@
 function Projects () {
     return (
-        <div>
+        <div id = "Projects">
             These are my Projects
         </div>
     )
