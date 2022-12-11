@@ -1,5 +1,6 @@
 import { useState } from "react"
-import { Routes, Route } from 'react-router-dom'
+import { Link } from "react-router-dom";
+
 
 function DropdownMenu () {
     const [state, setState] = useState(false);
@@ -14,11 +15,11 @@ function DropdownMenu () {
         <img id="menu" src="/images/menu.png" alt="menu" onMouseOver={showDropdown} onMouseLeave={hideDropdown}></img>
             {state ? (
                 <dl id="dropdown_list" onMouseEnter={showDropdown}>
-                    <li>Home</li>
-                    <li>Projekte / Projects</li>
-                    <li>Lebenslauf / CV</li>
-                    <li>Fähigkeiten / Skills</li>
-                    <li>Über Mich / About Me</li>
+                    <Link to="/"><li>Home</li></Link>
+                    <Link to="/projects"><li>Projekte / Projects</li></Link>
+                    <Link to="/cv"><li>Lebenslauf / CV</li></Link>
+                    <Link to="/skills"><li>Fähigkeiten / Skills</li></Link>
+                    <Link to="/aboutme"><li>Über Mich / About Me</li></Link>
                 </dl>
             ): null}
         </div>

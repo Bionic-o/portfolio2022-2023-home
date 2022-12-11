@@ -54,3 +54,9 @@ padding: 1vh;
     padding-left: 1vh;
     padding-right: 1vh;
 }
+
+#AboutMe {
+    text-align: center;
+    margin-top: 10vh;
+    color: black;
+}

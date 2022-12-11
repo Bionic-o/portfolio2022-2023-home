@@ -1,6 +1,7 @@
 function AboutMe () {
     return (
-        <div>
+        <div id = "AboutMe">
+            This is AboutMe
         </div>
     )
 }

@@ -1,5 +1,11 @@
 import "./App.css"
 import DropdownMenu from "./DropdownMenu";
+import {Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import AboutMe from "./AboutMe";
+import CV from "./CV";
+import Projects from "./Projects";
+import Skills from "./Skills";
 
 function App() {
   return (
@@ -15,7 +21,13 @@ function App() {
         </div>
       </header>
       <main>
-
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="projects" element={<Projects />}></Route>
+          <Route path="/cv" element={<CV />}></Route>
+          <Route path="/skills" element={<Skills />}></Route>
+          <Route path="/aboutme" element={<AboutMe />}></Route>
+        </Routes>
       </main>
       <footer id = "footer">
         <div>
