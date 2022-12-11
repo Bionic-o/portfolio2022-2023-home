@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
+import DropdownMenu from "./DropdownMenu";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div id="App">
+      <header id="header">
+        <div id="header_text">
+          <span id="span01">Mein Portfolio</span>
+          <br></br>
+          <span id="span02"> ~~ Nico Weiskopf ~~</span>
+        </div>
+        <div id="header_menu">
+        <DropdownMenu/>
+        </div>
       </header>
+      <main>
+
+      </main>
+      <footer id = "footer">
+        <div>
+          Nico Weiskopf<br></br>
+          Tel.: +49 152 218 321 58<br></br>
+          E-Mail: weiskopf.bionico@gmail.com
+        </div>
+      </footer>
     </div>
   );
 }
