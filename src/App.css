@@ -39,6 +39,10 @@ background-color: black;
 list-style-type: none;
 padding: 1vh;
 }
+.link_decoration {
+    text-decoration: none;
+    color: whitesmoke;
+}
 
 #footer {
     position: absolute;
