@@ -20,7 +20,7 @@ function App() {
         <DropdownMenu/>
         </div>
       </header>
-      <main>
+      <main id="main">
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="projects" element={<Projects />}></Route>
@@ -32,8 +32,8 @@ function App() {
       <footer id = "footer">
         <div>
           Nico Weiskopf<br></br>
-          Tel.: +49 152 218 321 58<br></br>
-          E-Mail: weiskopf.bionico@gmail.com
+          Tel.: +49 152 218 xxx xx<br></br>
+          E-Mail: beispiel.name@test.de
         </div>
       </footer>
     </div>
