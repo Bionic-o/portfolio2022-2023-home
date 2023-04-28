@@ -2,21 +2,20 @@ body {
     margin: 0px;
     font-family: calibri;
     letter-spacing: 1.1px;
+    width: 100%;
 }
 #hr {
 border-bottom: 0.5px solid;
 border-top: none;
 border-left: none;
 border-right: none;
-width: 100em;
+width: 100%;
 }
 #header {
     text-align: left;
     padding: 3vh;
-    width: 100%;
     background-color: gray;
     color: whitesmoke;
-    display: flex;
 }
 #header_text {
     position: relative;
@@ -67,17 +66,11 @@ padding: 1vh;
 
 #footer {
     position: relative;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 10vh;
     background-color: gray;
     color: whitesmoke;
     font-size: 11px;
-    display: flex;
-    align-items: center;
-    padding-left: 1vh;
-    padding-right: 1vh;
+    text-orientation: center;
+    padding: 3vh;
 }
 
 /* =================================================================== */
