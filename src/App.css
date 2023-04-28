@@ -1,18 +1,26 @@
 body {
     margin: 0px;
+    font-family: calibri;
+    letter-spacing: 1.1px;
+}
+#hr {
+border-bottom: 0.5px solid;
+border-top: none;
+border-left: none;
+border-right: none;
+width: 100em;
 }
 #header {
-    text-align: center;
+    text-align: left;
+    padding: 3vh;
     width: 100%;
-    padding-top: 5vh;
-    padding-bottom: 4vh;
     background-color: gray;
     color: whitesmoke;
     display: flex;
-    justify-content: center;
 }
 #header_text {
     position: relative;
+
 }
 #header_menu {
     position: absolute;
@@ -20,11 +28,20 @@ body {
     top: 6vh;
 
 }
-#span01 {
-    font-size: 28px;
+#p01 {
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 30%;
+    margin-bottom: 4px;
 }
-#span02 {
-    font-size: 11px;
+#p02 {
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 30%;
+    margin-bottom: 12px;
+}
+#p03 {
+    font-size: 9px;
 }
 #menu {
     width: 32px;
@@ -49,7 +66,7 @@ padding: 1vh;
 }
 
 #footer {
-    position: absolute;
+    position: relative;
     left: 0;
     bottom: 0;
     right: 0;
@@ -67,13 +84,27 @@ padding: 1vh;
 /* Find below the CSS of linked Components in the <main> of App.js
 --> Home, Projects, CV, Skills, About Me */
 
+/*=====================================================================*/
+/* HOME */
+#Bewerbungsfoto {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+}
+/*=====================================================================*/
+/* LEBENLAUF */
 #CV {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 3%;
+    margin: 3% 5%;
+    padding: 1vh;
     border: solid;
     border-radius: 10px;
 }
+dt {
+    font-weight: bold;
+}
+
+/*=====================================================================*/
+/* ABOUT ME */
 #AboutMe {
     text-align: center;
     margin-top: 10vh;

@@ -12,9 +12,10 @@ function App() {
     <div id="App">
       <header id="header">
         <div id="header_text">
-          <span id="span01">Mein Portfolio</span>
-          <br></br>
-          <span id="span02"> ~~ Nico Weiskopf ~~</span>
+          <p id="p01">Nico Weiskopf</p>
+          <p id="p02">Wirtschaftsinformatiker</p>
+          <hr id="hr"></hr>
+          <p id="p03" style={{ fontSize: 9 }}>Bachelor of Professional</p>
         </div>
         <div id="header_menu">
         <DropdownMenu/>
