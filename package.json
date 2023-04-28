@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://bionic-o.github.io/portfolio2022-2023",
+  "homepage": "https://bionic-o.github.io/portfolio2022-2023/home",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
