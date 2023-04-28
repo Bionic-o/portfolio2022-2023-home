@@ -23,11 +23,11 @@ function App() {
       </header>
       <main id="main">
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="projects" element={<Projects />}></Route>
-          <Route path="/cv" element={<CV />}></Route>
-          <Route path="/skills" element={<Skills />}></Route>
-          <Route path="/aboutme" element={<AboutMe />}></Route>
+          <Route path="/portfolio2022-2023/home" element={<Home />}></Route>
+          <Route path="/portfolio2022-2023/projects" element={<Projects />}></Route>
+          <Route path="/portfolio2022-2023/cv" element={<CV />}></Route>
+          <Route path="/portfolio2022-2023/skills" element={<Skills />}></Route>
+          <Route path="/portfolio2022-2023/aboutme" element={<AboutMe />}></Route>
         </Routes>
       </main>
       <footer id = "footer">

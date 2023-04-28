@@ -20,11 +20,11 @@ function DropdownMenu () {
         <img id="menu" src={icon} alt="menu" onClick={showDropdown}></img>
             {state ? (
                 <dl id="dropdown_list">
-                    <Link className="link_decoration" onClick={hideDropdown} to="/"><li>Home</li></Link>
-                    <Link className="link_decoration" onClick={hideDropdown}  to="/cv"><li>Lebenslauf / CV</li></Link>
-                    <Link className="link_decoration" onClick={hideDropdown}  to="/skills"><li>Fähigkeiten / Skills</li></Link>
-                    <Link className="link_decoration" onClick={hideDropdown}  to="/projects"><li>Projekte / Projects</li></Link>
-                    <Link className="link_decoration" onClick={hideDropdown} to="/aboutme"><li>Über Mich / About Me</li></Link>
+                    <Link className="link_decoration" onClick={hideDropdown} to="/portfolio2022-2023/home"><li>Home</li></Link>
+                    <Link className="link_decoration" onClick={hideDropdown}  to="/portfolio2022-2023/cv"><li>Lebenslauf / CV</li></Link>
+                    <Link className="link_decoration" onClick={hideDropdown}  to="/portfolio2022-2023/skills"><li>Fähigkeiten / Skills</li></Link>
+                    <Link className="link_decoration" onClick={hideDropdown}  to="/portfolio2022-2023/projects"><li>Projekte / Projects</li></Link>
+                    <Link className="link_decoration" onClick={hideDropdown} to="/portfolio2022-2023/aboutme"><li>Über Mich / About Me</li></Link>
                 </dl>
             ): null}
         </div>
