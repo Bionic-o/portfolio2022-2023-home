@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio2022-2023/static/css/main.ea692bc9.css",
+    "main.css": "/portfolio2022-2023/static/css/main.0feab1fd.css",
     "main.js": "/portfolio2022-2023/static/js/main.e86d251e.js",
     "static/media/Bewerbungsfoto00.jpg": "/portfolio2022-2023/static/media/Bewerbungsfoto00.3cc93e2a84b10db49441.jpg",
     "index.html": "/portfolio2022-2023/index.html",
-    "main.ea692bc9.css.map": "/portfolio2022-2023/static/css/main.ea692bc9.css.map",
+    "main.0feab1fd.css.map": "/portfolio2022-2023/static/css/main.0feab1fd.css.map",
     "main.e86d251e.js.map": "/portfolio2022-2023/static/js/main.e86d251e.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea692bc9.css",
+    "static/css/main.0feab1fd.css",
     "static/js/main.e86d251e.js"
   ]
 }
