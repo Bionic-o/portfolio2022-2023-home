@@ -23,7 +23,7 @@ function App() {
       </header>
       <main id="main">
         <Routes>
-          <Route path="/home" element={<Home />}></Route>
+          <Route path="/" element={<Home />}></Route>
           <Route path="projects" element={<Projects />}></Route>
           <Route path="/cv" element={<CV />}></Route>
           <Route path="/skills" element={<Skills />}></Route>
