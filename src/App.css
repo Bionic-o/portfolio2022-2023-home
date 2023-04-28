@@ -89,21 +89,29 @@ padding: 1vh;
     border-radius: 50%;
 }
 /*=====================================================================*/
-/* LEBENLAUF */
+/* LEBENSLAUF */
 #CV {
     margin: 3% 5%;
     padding: 1vh;
     border: solid;
     border-radius: 10px;
+    color: whitesmoke;
 }
 dt {
     font-weight: bold;
 }
-
+/*=====================================================================*/
+/* SKILLS */
+#Skills {
+    color: whitesmoke;
+}
+/*=====================================================================*/
+/* PROJECT */
+#Projects {
+    color: whitesmoke;
+}
 /*=====================================================================*/
 /* ABOUT ME */
 #AboutMe {
-    text-align: center;
-    margin-top: 10vh;
-    color: black;
+    color: whitesmoke;
 }

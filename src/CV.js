@@ -7,7 +7,7 @@ function CV () {
                 <dd><a href="https://www.ford-konrad-erlangen.de/" target="_blank" rel="noreferrer">Gesellenbrief KFZ-Mechatroniker</a></dd>
                 <dd>test</dd>
                 <dt>Sep 2012 - Jul 2014</dt>
-                <dd><a href="https://www.fosbos-erlangen.de/webseite/index.php" target="_blank" rel="noreferrer">Fachhochschulreife Technik BOS</a></dd>
+                <dd><a href="https://www.fosbos-erlangen.de/de/" target="_blank" rel="noreferrer">Fachhochschulreife Technik BOS</a></dd>
                 <dt>Jul 2014 - Sep 2014</dt>
                 <dd>Ferienjob bei Deutsche Post</dd>
                 <dt>Okt 2014 - Aug 2015</dt>
