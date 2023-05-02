@@ -23,7 +23,7 @@ function App() {
       </header>
       <main id="main">
         <Routes>
-          <Route path="/portfolio2022-2023/home" element={<Home />}></Route>
+          <Route path="/portfolio2022-2023-home" element={<Home />}></Route>
           <Route path="/portfolio2022-2023/projects" element={<Projects />}></Route>
           <Route path="/portfolio2022-2023/cv" element={<CV />}></Route>
           <Route path="/portfolio2022-2023/skills" element={<Skills />}></Route>
