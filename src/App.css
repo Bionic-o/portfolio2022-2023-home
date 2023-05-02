@@ -84,11 +84,22 @@ padding: 1vh;
 
 /*=====================================================================*/
 /* HOME */
+#Home {
+    display: flex;
+    flex-direction: row;
+    color:whitesmoke;
+
+}
 #Bewerbungsfoto {
     width: 200px;
     height: auto;
     border-radius: 50%;
 }
+#Key_Skills {
+    margin-left: 15px;
+    text-decoration: underline;
+}
+
 /*=====================================================================*/
 /* LEBENSLAUF */
 #CV {
