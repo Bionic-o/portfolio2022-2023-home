@@ -55,13 +55,16 @@ position: absolute;
 right: -55.9%;
 width: 170px;
 text-align: left;
-background-color: black;
+background-color: whitesmoke;
 list-style-type: none;
 padding: 1vh;
 }
 .link_decoration {
     text-decoration: none;
-    color: whitesmoke;
+    color: black;
+}
+.link_decoration.active {
+    color: red;
 }
 
 #main {
@@ -99,7 +102,10 @@ padding: 1vh;
     margin-left: 15px;
     text-decoration: underline;
 }
-
+#home_list {
+    list-style-type: none;
+    padding-inline-start: 18px;
+}
 /*=====================================================================*/
 /* LEBENSLAUF */
 #CV {

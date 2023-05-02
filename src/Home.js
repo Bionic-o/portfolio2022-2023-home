@@ -7,10 +7,10 @@ function Home () {
                 <div>
                     <p id="Key_Skills">Key-Qualifications:</p>
                     <ul id="home_list">
-                        <li>C#</li>
-                        <li>HTML, CSS, JS, React</li>
-                        <li>ERP Systems (Wilkens, SAP)</li>
-                        <li></li>
+                        <li>- C#</li>
+                        <li>- HTML, CSS, JS, React</li>
+                        <li>- ERP Systems (Wilkens, SAP)</li>
+                        <li>- </li>
                     </ul>
                 </div>
         </div>

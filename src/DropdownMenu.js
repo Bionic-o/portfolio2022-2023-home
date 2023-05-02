@@ -15,6 +15,8 @@ function DropdownMenu () {
     function hideDropdown () {
         setState(false);
     }
+
+    
     return (
         <div id="dropdown">
         <img id="menu" src={icon} alt="menu" onClick={showDropdown}></img>
