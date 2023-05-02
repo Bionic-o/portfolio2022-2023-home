@@ -3,6 +3,7 @@ body {
     font-family: calibri;
     letter-spacing: 1.1px;
     width: 100%;
+    background-color: black;
 }
 #hr {
 border-bottom: 0.5px solid;
@@ -65,7 +66,6 @@ padding: 1vh;
 
 #main {
     height: 100%;
-    background-color: black;
     padding: 1vh;
 }
 
@@ -85,7 +85,7 @@ padding: 1vh;
 /*=====================================================================*/
 /* HOME */
 #Bewerbungsfoto {
-    width: 250px;
+    width: 200px;
     height: auto;
     border-radius: 50%;
 }
