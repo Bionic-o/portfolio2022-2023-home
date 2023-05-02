@@ -1,7 +1,7 @@
 function CV () {
     return (
         <div id="CV">
-            <h2 style="">Lebenslauf / CV</h2>
+            <h2 style={{textDecoration: "underline"}}>Lebenslauf / CV</h2>
             <dl>
                 <dt>Sep 2022 - Jul 2024</dt>
                 <dd>Wirtschaftsinformatik Techniker, <span>SBSZ Bamberg</span></dd>
