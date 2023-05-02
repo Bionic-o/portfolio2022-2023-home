@@ -6,6 +6,7 @@ function Home () {
                 <img id="Bewerbungsfoto" src={Bewerbungsfoto} alt="Mypic"></img>
                 <div>
                     <p id="Key_Skills">Key-Qualifications:</p>
+                    <hr id="hr_home"></hr>
                     <ul id="home_list">
                         <li>- C#</li>
                         <li>- HTML, CSS, JS, React</li>

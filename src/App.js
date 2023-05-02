@@ -14,7 +14,7 @@ function App() {
         <div id="header_text">
           <p id="p01">Nico Weiskopf</p>
           <p id="p02">Wirtschaftsinformatiker</p>
-          <hr id="hr"></hr>
+          <hr id="hr_header"></hr>
           <p id="p03" style={{ fontSize: 9 }}>Bachelor of Professional</p>
         </div>
         <div id="header_menu">

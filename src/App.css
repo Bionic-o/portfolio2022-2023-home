@@ -5,14 +5,14 @@ body {
     width: 100%;
     background-color: black;
 }
-#hr {
+#hr_header {
 border-bottom: 0.5px solid;
 border-top: none;
 border-left: none;
 border-right: none;
 text-align: left;
 margin-left: 0px;
-width: 85%;
+width: 80%;
 color: black;
 }
 #header {
@@ -64,8 +64,9 @@ padding: 1vh;
     color: black;
 }
 .link_decoration.active {
-    color: red;
+    text-decoration: underline;
 }
+
 
 #main {
     height: 100%;
@@ -100,11 +101,21 @@ padding: 1vh;
 }
 #Key_Skills {
     margin-left: 15px;
-    text-decoration: underline;
 }
 #home_list {
     list-style-type: none;
     padding-inline-start: 18px;
+}
+#hr_home {
+    border-bottom: 0.5px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    width: 80%;
 }
 /*=====================================================================*/
 /* LEBENSLAUF */
