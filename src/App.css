@@ -49,6 +49,8 @@ color: black;
 #menu {
     width: 32px;
     height: 32px;
+    background-color: rgb(74, 128, 74);
+    border-radius: 5%;
 }
 #dropdown_list {
 position: absolute;
@@ -97,14 +99,16 @@ padding: 1vh;
 #Bewerbungsfoto {
     width: 200px;
     height: auto;
-    border-radius: 50%;
 }
 #Key_Skills {
     margin-left: 15px;
 }
 #home_list {
-    list-style-type: none;
+    list-style-type: disc;
     padding-inline-start: 18px;
+    font-size: small;
+    line-height: 1.4;
+    margin-top: 25px;
 }
 #hr_home {
     border-bottom: 0.5px solid;
@@ -113,7 +117,7 @@ padding: 1vh;
     border-right: none;
     text-align: left;
     margin-left: 15px;
-    margin-top: -10px;
+    margin-top: -11px;
     margin-bottom: -10px;
     width: 80%;
 }
@@ -123,11 +127,19 @@ padding: 1vh;
     margin: 3% 5%;
     padding: 1vh;
     border: solid;
-    border-radius: 10px;
+    border-width: 0.5px;
+    border-radius: 3px;
     color: whitesmoke;
 }
 dt {
+    font-size: 12px;
     font-weight: bold;
+}
+dd {
+    font-size:large;
+}
+span {
+    font-size: 12px;
 }
 /*=====================================================================*/
 /* SKILLS */

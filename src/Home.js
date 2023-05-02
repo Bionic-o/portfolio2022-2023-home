@@ -1,17 +1,19 @@
-import Bewerbungsfoto from "./assets/Bewerbungsfoto00.jpg"
+import Bewerbungsfoto from "./assets/Bewerbungsfoto.jpg"
 
 function Home () {
     return (
         <div id="Home">
                 <img id="Bewerbungsfoto" src={Bewerbungsfoto} alt="Mypic"></img>
                 <div>
-                    <p id="Key_Skills">Key-Qualifications:</p>
+                    <p id="Key_Skills">Schlüssel-Qualifikationen:</p>
                     <hr id="hr_home"></hr>
                     <ul id="home_list">
-                        <li>- C#</li>
-                        <li>- HTML, CSS, JS, React</li>
-                        <li>- ERP Systems (Wilkens, SAP)</li>
-                        <li>- </li>
+                        <li>Projektmanagement</li>
+                        <li>Betriebswirtschaftliche Prozesse</li>
+                        <li>HTML, CSS, JS, React, C#</li>
+                        <li>ERP Systeme (Wilkens, SAP)</li>
+                        <li>Datenbanken (SQL)</li>
+                        <li>Kommunikation</li>
                     </ul>
                 </div>
         </div>
