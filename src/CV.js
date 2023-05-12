@@ -28,9 +28,9 @@ function CV () {
                 <dt>Jul 2014 - Sep 2014</dt>
                 <dd>Ferienjob, <span>Deutsche Post</span></dd>
                 <dt>Sep 2012 - Jul 2014</dt>
-                <dd><a href="https://www.fosbos-erlangen.de/de/" target="_blank" rel="noreferrer">Fachhochschulreife Technik, <span>BOS Erlangen</span></a></dd>
+                <dd>Fachhochschulreife Technik, <span><a href="https://www.fosbos-erlangen.de/de/" target="_blank" rel="noreferrer">BOS Erlangen</a></span></dd>
                 <dt>Jan 2009 - Aug 2012</dt>
-                <dd><a href="https://www.ford-konrad-erlangen.de/" target="_blank" rel="noreferrer">Gesellenbrief KFZ-Mechatroniker,<span>Autohaus Konrad</span></a></dd>
+                <dd>Gesellenbrief KFZ-Mechatroniker, <span><a href="https://www.ford-konrad-erlangen.de/" target="_blank" rel="noreferrer">Autohaus Konrad</a></span></dd>
             </dl>
         </div>
     )
