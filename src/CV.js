@@ -8,7 +8,7 @@ function CV () {
                 <dt>Apr 2022 - Okt 2022</dt>
                 <dd>Full-Stack Developer, <span>WBS Coding School</span></dd>
                 <dt>Feb 2020 - Feb 2022</dt>
-                <dd>Hausmeister Service Bezold</dd>
+                <dd>Hausmeister/Gärtner, <span>Hausmeister Service Bezold</span></dd>
                 <dt>Sep 2019 - Jan 2020</dt>
                 <dd>Auszeit</dd>
                 <dt>Aug 2018 - Okt 2019</dt>

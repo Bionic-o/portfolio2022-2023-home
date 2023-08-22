@@ -8,12 +8,12 @@ function Home () {
                     <p id="Key_Skills">Schlüssel-Qualifikationen:</p>
                     <hr id="hr_home"></hr>
                     <ul id="home_list">
-                        <li>Projektmanagement</li>
-                        <li>Betriebswirtschaftliche Prozesse</li>
-                        <li>HTML, CSS, JS, React, C#</li>
-                        <li>ERP Systeme (Wilkens, SAP)</li>
-                        <li>Datenbanken (SQL)</li>
-                        <li>Kommunikation</li>
+                        <li className="home_list">Projektmanagement</li>
+                        <li className="home_list">Betriebswirtschaftliche Prozesse</li>
+                        <li className="home_list">HTML, CSS, JS, React, C#</li>
+                        <li className="home_list">ERP Systeme (Wilkens, SAP)</li>
+                        <li className="home_list">Datenbanken (SQL)</li>
+                        <li className="home_list">Kommunikation</li>
                     </ul>
                 </div>
         </div>

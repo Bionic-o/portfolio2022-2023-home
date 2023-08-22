@@ -32,19 +32,19 @@ color: black;
 
 }
 #p01 {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: lighter;
     line-height: 30%;
     margin-bottom: 4px;
 }
 #p02 {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bolder;
     line-height: 30%;
     margin-bottom: 12px;
 }
 #p03 {
-    font-size: 9px;
+    font-size: 11px;
 }
 #menu {
     width: 32px;
@@ -72,14 +72,14 @@ padding: 1vh;
 
 #main {
     height: 100%;
-    padding: 1vh;
+    padding: 2vh;
 }
 
 #footer {
     position: relative;
     background-color: gray;
     color: whitesmoke;
-    font-size: 11px;
+    font-size: 15px;
     text-orientation: center;
     padding: 3vh;
 }
@@ -101,7 +101,8 @@ padding: 1vh;
     height: auto;
 }
 #Key_Skills {
-    margin-left: 15px;
+    margin-left: 2em;
+    font-size: 18px;
 }
 #home_list {
     list-style-type: disc;
@@ -109,6 +110,11 @@ padding: 1vh;
     font-size: small;
     line-height: 1.4;
     margin-top: 25px;
+    margin-left: 3em;
+    line-height: 2em;
+}
+.home_list {
+    font-size: 16px;
 }
 #hr_home {
     border-bottom: 0.7px solid;
@@ -116,23 +122,24 @@ padding: 1vh;
     border-left: none;
     border-right: none;
     text-align: left;
-    margin-left: 15px;
+    margin-left: 2em;
     margin-top: -11px;
     margin-bottom: -10px;
-    width: 80%;
+    width: 75%;
 }
 /*=====================================================================*/
 /* LEBENSLAUF */
 #CV {
-    margin: 3% 5%;
-    padding: 1vh;
+    margin: 3% 3%;
+    padding-left: 5vh;
     border: solid;
     border-width: 0.5px;
     border-radius: 3px;
     color: whitesmoke;
+    width: 40%;
 }
 dt {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: bold;
 }
 dd {
